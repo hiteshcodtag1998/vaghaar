@@ -1,0 +1,17 @@
+/* ElementContainer.css */
+.elementor-widget-container {
+    text-align: center;
+}
+
+.elementor-widget-container a {
+    display: inline-block;
+}
+
+.elementor-widget-container a img[src$=".svg"] {
+    width: 48px;
+}
+
+.elementor-widget-container img {
+    vertical-align: middle;
+    display: inline-block;
+}
