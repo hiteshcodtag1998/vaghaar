@@ -154,10 +154,10 @@ export default function Footer() {
                                                 <div class="hfe-site-logo">
                                                     <a data-elementor-open-lightbox class="elementor-clickable"
                                                         href="https://demo2.themelexus.com/delicioz">
-                                                        <div class="hfe-site-logo-set">
-                                                            <div class="hfe-site-logo-container">
+                                                        <div class="hfe-site-logo-set flex justify-center items-center">
+                                                            <div class="hfe-site-logo-container w-1/4">
                                                                 <img class="hfe-site-logo-img elementor-animation-"
-                                                                    src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/07/logo.svg"
+                                                                    src="https://kenton.vaghaar.co.uk/wp-content/uploads/2022/07/Vaghaar-Logo-H-1-1.png"
                                                                     alt />
                                                             </div>
                                                         </div>

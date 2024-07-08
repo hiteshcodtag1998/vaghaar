@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 const loadStylesheets = (links) => {
     const linkElements = links.map(link => {
@@ -63,7 +64,7 @@ export default function Header() {
                                                 <div class="hfe-site-logo-set">
                                                     <div class="hfe-site-logo-container">
                                                         <img class="hfe-site-logo-img elementor-animation-"
-                                                            src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/07/logo.svg"
+                                                            src="https://kenton.vaghaar.co.uk/wp-content/uploads/2022/07/Vaghaar-Logo-H-1-1.png"
                                                             alt />
                                                     </div>
                                                 </div>
@@ -87,9 +88,9 @@ export default function Header() {
                                                     <ul id="menu-1-f19d126" class="menu">
                                                         <li id="menu-item-58"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-20 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-58 has-mega-menu has-stretchwidth">
-                                                            <a href="https://demo2.themelexus.com/delicioz/"><span
-                                                                class="menu-title">Home</span></a>
-                                                            <ul class="sub-menu mega-menu mega-stretchwidth">
+                                                            <a href="#"><span
+                                                                class="menu-title"><Link to="/home">Home</Link></span></a>
+                                                            {/* <ul class="sub-menu mega-menu mega-stretchwidth">
                                                                 <li class="mega-menu-item">
                                                                     <div data-elementor-type="page"
                                                                         data-elementor-id="671"
@@ -329,13 +330,13 @@ export default function Header() {
                                                                         </div>
                                                                     </div>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> */}
                                                         </li>
                                                         <li id="menu-item-66"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-66">
-                                                            <a href="https://demo2.themelexus.com/delicioz/about-us-1/"><span
-                                                                class="menu-title">About</span></a>
-                                                            <ul class="sub-menu">
+                                                            <a href=""><span
+                                                                class="menu-title"><Link to="/about">About</Link></span></a>
+                                                            {/* <ul class="sub-menu">
                                                                 <li id="menu-item-67"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67">
                                                                     <a
@@ -348,14 +349,14 @@ export default function Header() {
                                                                         href="https://demo2.themelexus.com/delicioz/about-us-2/"><span
                                                                             class="menu-title">About us 2</span></a>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> */}
                                                         </li>
                                                         <li id="menu-item-64"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-64 has-mega-menu has-stretchwidth">
                                                             <a
-                                                                href="https://demo2.themelexus.com/delicioz/menu-list-01/"><span
-                                                                    class="menu-title">Menu</span></a>
-                                                            <ul class="sub-menu mega-menu mega-stretchwidth">
+                                                                href="#"><span
+                                                                    class="menu-title"><Link to="/menu">Menu</Link></span></a>
+                                                            {/* <ul class="sub-menu mega-menu mega-stretchwidth">
                                                                 <li class="mega-menu-item">
                                                                     <div data-elementor-type="page"
                                                                         data-elementor-id="705"
@@ -607,9 +608,9 @@ export default function Header() {
                                                                         </div>
                                                                     </div>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> */}
                                                         </li>
-                                                        <li id="menu-item-73"
+                                                        {/* <li id="menu-item-73"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-73">
                                                             <a href="https://demo2.themelexus.com/delicioz/blog/"><span
                                                                 class="menu-title">Blog</span></a>
@@ -695,11 +696,11 @@ export default function Header() {
                                                                             class="menu-title">Single Product</span></a>
                                                                 </li>
                                                             </ul>
-                                                        </li>
+                                                        </li> */}
                                                         <li id="menu-item-75"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75">
-                                                            <a href="https://demo2.themelexus.com/delicioz/contact-us/"><span
-                                                                class="menu-title">Contact</span></a>
+                                                            <a href="#"><span
+                                                                class="menu-title"><Link to="/contact">Contact</Link></span></a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -725,10 +726,10 @@ export default function Header() {
                                 </div>
                             </div>
                         </div>
-                        {/* <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-aa65abd elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile"
+                        <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-aa65abd elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile"
                             data-id="aa65abd" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
-                                 <div class="elementor-element elementor-element-3d4bbca elementor-widget__width-auto elementor-widget elementor-widget-delicioz-header-group"
+                                {/* <div class="elementor-element elementor-element-3d4bbca elementor-widget__width-auto elementor-widget elementor-widget-delicioz-header-group"
                                     data-id="3d4bbca" data-element_type="widget"
                                     data-widget_type="delicioz-header-group.default">
                                     <div class="elementor-widget-container">
@@ -753,8 +754,8 @@ export default function Header() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                 <div class="elementor-element elementor-element-50a58f1 elementor-widget__width-auto elementor-button-default elementor-widget elementor-widget-button"
+                                </div> */}
+                                <div class="elementor-element elementor-element-50a58f1 elementor-widget__width-auto elementor-button-default elementor-widget elementor-widget-button"
                                     data-id="50a58f1" data-element_type="widget" data-widget_type="button.default">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-button-wrapper">
@@ -769,7 +770,7 @@ export default function Header() {
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>
